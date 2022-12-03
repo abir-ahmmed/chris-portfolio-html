@@ -999,7 +999,7 @@ color changes in some parts of the website, in light theme
 }
 
 /* --==For medium devices ==-- */
-@media screen and (max-width: 576) {
+@media screen and (min-width: 576px) {
     .nav,
     .nav_menu{
         width: 380px;
