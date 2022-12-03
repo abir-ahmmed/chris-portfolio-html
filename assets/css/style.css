@@ -594,7 +594,7 @@ color changes in some parts of the website, in light theme
 
 /*==========  PROJECTS  ==========*/
 .projects_container{
-    overflow:initial;
+    overflow:hidden;
 }
 
 .projects_content{
@@ -733,11 +733,11 @@ color changes in some parts of the website, in light theme
 }
 
 .testimonial_container .swiper-button-prev{
-    left: calc(35%);
+    left: calc(50% -5rem);
 }
 
 .testimonial_container .swiper-button-next{
-    right: calc(35%);
+    right: calc(50% -5rem);
 }
 
 .testimonial_container .swiper-button-disabled{
@@ -1183,13 +1183,14 @@ color changes in some parts of the website, in light theme
 
     .home_blob{
         width: 400px;
-        height: 500px;
+        height: 580px;
         border-radius: 12.5rem;
     }
-
+    
     .home_perfil{
         width: 340px;
         height: 520px;
+        border-radius: 10.6rem;
     }
 
     .home_perfil img{
