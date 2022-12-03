@@ -975,7 +975,7 @@ color changes in some parts of the website, in light theme
 
 /*==========  BREAK POINT  ==========*/
 /* --==For small devices ==-- */
-@media screen (max-width:340px) {
+@media screen and (max-width:340px) {
     .container{
         margin-inline: 1rem;
     }
@@ -999,7 +999,7 @@ color changes in some parts of the website, in light theme
 }
 
 /* --==For medium devices ==-- */
-@media screen (max-width: 576) {
+@media screen and (max-width: 576) {
     .nav,
     .nav_menu{
         width: 380px;
@@ -1012,9 +1012,9 @@ color changes in some parts of the website, in light theme
     .skills_container{
         justify-content: center;
     }
-
-    .projects_container,{
-    .testimonial_container{
+    
+    .testimonial_container,
+    .projects_container{
         width: 400px;
     }
 
@@ -1026,7 +1026,7 @@ color changes in some parts of the website, in light theme
     }
 }
 
-@media screen (min-width: 767px) {
+@media screen and (min-width: 767px) {
     .home_container{
         grid-template-coloums:1fr 2fr 1fr ;
     }
@@ -1075,11 +1075,12 @@ color changes in some parts of the website, in light theme
         justify-content: center;
         column-gap: 8rem;
     }
+    
 
 }
 
 /* --==For large devices ==-- */
-@media screen (min-width: 1023px) {
+@media screen and (min-width: 1023px) {
     .header{
         top: 0;
         bottom: initial;
@@ -1375,8 +1376,5 @@ color changes in some parts of the website, in light theme
     .footer_social-link{
         font-size: 1.5rem;
     }
-
-    .footer_copy
-    .footer
 
 }
