@@ -1027,8 +1027,9 @@ color changes in some parts of the website, in light theme
 }
 
 @media screen and (min-width: 767px) {
+    
     .home_container{
-        grid-template-coloums:1fr 2fr 1fr ;
+        grid-template-columns: 1fr 2fr 1fr;
     }
     .home_data{
         order: 2;
@@ -1049,7 +1050,8 @@ color changes in some parts of the website, in light theme
 
     .skills_container,
     .qualification_container,
-    .services_container{
+    .services_container,
+    .contact_container{
         grid-template-columns: repeat(2, max-content);
     }
 
@@ -1075,7 +1077,7 @@ color changes in some parts of the website, in light theme
         justify-content: center;
         column-gap: 8rem;
     }
-    
+      
 
 }
 
@@ -1098,7 +1100,7 @@ color changes in some parts of the website, in light theme
         padding: 0;
     }
 
-    .nav_link,
+    .nav_link i,
     .nav_toggle,
     .nav_close{
         display: none;
@@ -1128,6 +1130,9 @@ color changes in some parts of the website, in light theme
 
 .change-theme{
     color: var(--text-color-light);
+}
+.change-theme:hover{
+    color: var(--title-color);
 }
 
 .section{
