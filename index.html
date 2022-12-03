@@ -71,8 +71,8 @@
             </div>
             <div class="nav_buttons">
                 <!-- Theme change button-->
-                <!--<i class="ri-moon-line change-theme" id="theme-button"></i>
-                -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <!-- Toggle button-->                
                 <div class="nav_toggle" id="nav-toggle">
                     <div class="ri-menu-4-line"></div>
                 </div>
@@ -96,8 +96,9 @@
                             <div class="home_perfil">
                                 <img src="assets/img/perfil.png" alt="home perfil">
                             </div>
-                        <img src="assets/img/shape-wawes.svg" alt="" class="home_shape-wawes">
-                            <img src="assets/img/shape-circle.svg" alt="" class="home_shape-wawes">
+                            <img src="assets/img/shape-wawes.svg" alt="" class="home_shape-wawes">
+                            <img src="assets/img/shape-circle.svg" alt="" class="home_shape-circle">
+                            
                         </div>
                         <ul class="home_social">
                             <a href="https://www.linkedin.com/" target="_blank" class="home_social-link">
@@ -423,9 +424,9 @@
                 <div class="projects_container swiper">
                     <div class="swiper-wrapper">
                         
-                        <!--==================== PROJECTS 1 ====================-->
+                        <!--==================== PROJECT 1 ====================-->
                         <div class="projects_content swiper-slide">
-                            <img src="assets/img/project1.jpg" alt="project image">
+                            <img src="assets/img/project1.jpg" alt="project image" class="projects_img">
 
                             <div>
                                 <span class="projects_subtitle">Web</span>
@@ -437,9 +438,9 @@
                             </div>
                         </div>
                         
-                        <!--==================== PROJECTS 2 ====================-->
+                        <!--==================== PROJECT 2 ====================-->
                         <div class="projects_content swiper-slide">
-                            <img src="assets/img/project2.jpg" alt="project image">
+                            <img src="assets/img/project2.jpg" alt="project image" class="projects_img">
 
                             <div>
                                 <span class="projects_subtitle">Web</span>
@@ -451,9 +452,9 @@
                             </div>
                         </div>
                         
-                        <!--==================== PROJECTS 3 ====================-->
+                        <!--==================== PROJECTS  ====================-->
                         <div class="projects_content swiper-slide">
-                            <img src="assets/img/project3.jpg" alt="project image">
+                            <img src="assets/img/project3.jpg" alt="project image" class="projects_img">
 
                             <div>
                                 <span class="projects_subtitle">Design</span>
@@ -465,9 +466,9 @@
                             </div>
                         </div>
                         
-                        <!--==================== PROJECTS 4 ====================-->
+                        <!--==================== PROJECT 4 ====================-->
                         <div class="projects_content swiper-slide">
-                            <img src="assets/img/project4.jpg" alt="project image">
+                            <img src="assets/img/project4.jpg" alt="project image" class="projects_img">
 
                             <div>
                                 <span class="projects_subtitle">Animation</span>
@@ -498,7 +499,7 @@
             <h2 class="section_title">Testimonial</h2>
             <span class="section_subtitle">My client saying</span>
 
-            <div class="sontainer section_border">
+            <div class="container section_border">
                 <div class="testimonial_container swiper">
                     <div class="swiper-wrapper">
             <!--==================== TESTIMONIAL 1 ====================-->
@@ -633,14 +634,53 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
+        <div class="footer_container container">
+            <h1 class="footer_title">Chris</h1>
+            <p>Frontend Developer</p>
 
+            <ul class="footer_list">
+                <li>
+                    <a href="#home" class="footer_link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#skills" class="footer_link">Skills</a>
+                </li>
+                
+                <li>
+                    <a href="#projects" class="footer_link">Projects</a>
+                </li>
+            </ul>
+
+            <ul>
+                <a href="https://www.linkedin.com/" target="_blank" class="footer_social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+                
+                <a href="https://github.com/" target="_blank" class="footer_social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+                
+                <a href="https://dribbble.com/" target="_blank" class="footer_social-link">
+                    <i class="ri-dribbble-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer_copy">
+                &#169; Copyright Bedimcode. All rights reserved
+            </span>
+        </div>
     </footer>
     <!--==================== SCROLL UP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
     <!--====================  ====================-->
     <!--====================  ====================-->
     <!--====================  ====================-->
-    <script src=""></script><!--==================== SCROLL REVEAL ====================-->
-    
+    <!--==================== SCROLL REVEAL ====================-->
+    <script src="assets/js/scrollreveal_4.0.9.js"></script>
+
     <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper_8.4.5.js"></script>
     <!--==================== EMAIL JS ====================-->
