@@ -733,11 +733,11 @@ color changes in some parts of the website, in light theme
 }
 
 .testimonial_container .swiper-button-prev{
-    left: calc(50% -5rem);
+    left: calc(50% - 5rem);
 }
 
 .testimonial_container .swiper-button-next{
-    right: calc(50% -5rem);
+    right: calc(50% - 5rem);
 }
 
 .testimonial_container .swiper-button-disabled{
